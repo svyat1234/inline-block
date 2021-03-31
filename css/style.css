@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.promo{
+    position: absolute;
+    width: 1011px;
+    height: 504px;
+    border: 0.7px solid #d7d7d7;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    margin-top: -252px;
+    margin-left: -505px;
+    color: #2f2f2f;
+}
+
+.promo__block{
+    position: relative;
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+
+.promo__block__img{
+    display: inline-block;
+}
+
+.promo__block__info{
+    position: absolute;
+    top: 94px;
+    right: 94px;
+    display: inline-block;
+    max-width: 350px;
+}
+
+.title{
+    font-size: 22.5px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.promo__block__text {
+    margin-top: 30px;
+    max-width: 393px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.price__text{
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.price{
+    margin-top: 20px;
+    margin-bottom: 56px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+}
+
+
+.button{
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    font-size: 18.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 991px){
+    .promo{
+        width: 700px;
+        margin-left: -350px;
+    }
+    .promo__block__info{
+        right: 30px;
+        top: 70px;
+    }
+    .promo__block__img{
+        width: 200px;
+    }
+    .promo__block__text{
+        max-width: 200px;
+    }
+    .price{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 730px){
+    .promo{
+        width: 500px;
+        height: 300px;
+        margin-left: -250px;
+    }
+    .promo__block{
+        padding: 0;
+    }
+    .promo__block__info{
+        top: 10px;
+        right: 5px;
+    }
+    .promo__block__img {
+        margin-top: 30px;
+    }
+    .promo__img {
+        width: 230px;
+    }
+    .promo__block__text{
+        max-width: 260px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .price__text{
+        margin-bottom: 5px;
+    }
+    .price {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
